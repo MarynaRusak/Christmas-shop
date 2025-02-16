@@ -314,13 +314,13 @@ body.no-scroll, html.no-scroll {
   }
 .section {
   background-color: #FF4646;
-  background-image: url(/marynarusak-JSFEEN2024Q4/christmas-shop/img/bg-snow.png);
+  background-image: url(/Christmas-shop/img/bg-snow.png);
   background-size: contain;
 }
 
 .hero-section {
   background-position: center;
-  background-image: url(/marynarusak-JSFEEN2024Q4/christmas-shop/img/bg-snow.png), url(/marynarusak-JSFEEN2024Q4/christmas-shop/img/bg-ball.png);
+  background-image: url(/Christmas-shop/img/bg-snow.png), url(/Christmas-shop/img/bg-ball.png);
   background-size: cover;
   min-height: 524px;
   border-radius: 20px 20px 0 0;
@@ -563,7 +563,7 @@ body.no-scroll, html.no-scroll {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/marynarusak-JSFEEN2024Q4/christmas-shop/img/bg-forest.png), url(/marynarusak-JSFEEN2024Q4/christmas-shop/img/bg-snow.png);
+  background-image: url(/Christmas-shop/img/bg-forest.png), url(/Christmas-shop/img/bg-snow.png);
   background-size: cover;
   background-position: center;
   border-radius: 0 0 20px 20px;
@@ -762,7 +762,7 @@ footer .footer-cards a.btn-card p.footer {
 
 .gifts-section {
   background-color: #FF4646;
-  background-image: url(/marynarusak-JSFEEN2024Q4/christmas-shop/img/bg-garland.png);
+  background-image: url(/Christmas-shop/img/bg-garland.png);
   background-size: contain;
   background-repeat: no-repeat;
   min-height: fit-content;
