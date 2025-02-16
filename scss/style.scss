@@ -301,17 +301,17 @@ body.no-scroll, html.no-scroll {
     .burger-menu.open {
         transform: translateX(0); /* Slide in the menu */
     }
-    .header-nav.open-menu .header-burger .burger-bar:nth-child(1) {
-        transform: rotate(45deg);
-        position: absolute;
-        top: 12px;
-    }
+}
+.header-burger.open .burger-bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 12px;
+}
 
-    .header-nav.open-menu .header-burger .burger-bar:nth-child(2) {
-        transform: rotate(-45deg);
-        position: absolute;
-        top: 12px;
-    }
+.header-burger.open .burger-bar:nth-child(2) {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 12px;
 }
 
 .section  {
@@ -921,7 +921,6 @@ footer {
         }
     }
 }
-
 @media (max-width: 1292px) {
     .header {
         margin: 0 8px;
@@ -948,7 +947,6 @@ footer {
             flex-direction: column;
         }
 }
-
 @media (max-width: 654px) {
     .about {
         &-container {
@@ -974,7 +972,6 @@ footer {
         max-width: 364px;
     }
 }
-
 /* Modal Styles */
 .modal {
     display: none; /* Hidden by default */
